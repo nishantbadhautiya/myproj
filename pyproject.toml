@@ -1,6 +1,6 @@
 [project]
 name = "nishant-project"
-version = "0.1.6"
+version = "0.1.7"
 description = "A reusable utility library"
 authors = [
     { name = "Nishant Badhautiya", email = "nishantbadhautiya100@gmail.com" },
