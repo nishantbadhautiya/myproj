@@ -1,0 +1,15 @@
+{
+    "typeCheckingMode": "standard",
+    "pythonVersion": "3.11",
+    "reportMissingImports": "error",
+    "reportMissingTypeStubs": "none",
+    "pythonPlatform": "Linux",
+    "exclude": [
+        ".ruff_cache",
+        ".venv",
+        "public",
+        "dist",
+        "**/__pycache__",
+    ],
+    "include": ["src"]
+}

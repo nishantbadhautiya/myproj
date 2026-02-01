@@ -34,5 +34,5 @@ Thumbs.db
 *.log
 
 # Others
-src/practice.py
 .env
+.ruff_cache/

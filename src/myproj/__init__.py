@@ -1,4 +1,4 @@
-from .core import add, multiply, subtract, division, upper
+from .core import add, division, multiply, subtract, upper
 from .utils import greet
 from .version import __version__
 

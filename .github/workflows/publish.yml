@@ -26,6 +26,18 @@ jobs:
       - name: Install dependencies
         run: poetry install --no-root
 
+      - name: Format check (Black)
+        run: poetry run black --check .
+        
+      - name: Lint (Ruff)
+        run: poetry run ruff check .
+
+      - name: Type check (Pyright)
+        run: poetry run pyright
+    
+      - name: Run tests (pytest)
+        run: poetry run pytest
+
       - name: Build package
         run: poetry build
 

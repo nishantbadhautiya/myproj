@@ -1,0 +1,17 @@
+line-length = 88
+indent-width = 4
+target-version = "py311"
+
+[lint]
+select = [
+    "E",   # pycodestyle
+    "F",   # pyflakes
+    "B",   # bugbear
+    "I",   # import sorting
+    "UP",  # pyupgrade
+    "SIM", # simplifications
+]
+ignore = [
+    "E203", # whitespace before ':' (Black conflict)
+    "E501", # line length (handled by formatter)
+]
