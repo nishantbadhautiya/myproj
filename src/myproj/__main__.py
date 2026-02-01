@@ -1,4 +1,4 @@
-# run command -> python -m myproj 
+# run command -> python -m myproj
 from myproj import add, greet
 
 
